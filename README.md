@@ -13,3 +13,12 @@ For example, when the two fingers get further away, the volume increases and the
 I don't see any convenient uses for this as it is very unreliable and not practical. Nowadays it is even possible to adjust the volume through keyboard keys in some computers
 which is quite handful.
 However, there are many useful applications of these kind of projects through motion control and this one is just a basic one for starters! 
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+## fingerCounting:
+
+Inspired on the above project, I created one using the same module to count the number of fingers raised on someone's hand. 
+To check whether a finger is raised or not I compared the Y-position for tip of the fingers and the first mark we have on our fingers.
+if the tip of the finger was above the mark then the program will understand the finger is raised.
+For the thumb, since we 'raise our thumb sideways' I compared the X-coordinates of the tip of the finger and the mark.
