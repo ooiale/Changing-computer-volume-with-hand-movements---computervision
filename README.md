@@ -1,6 +1,6 @@
 # Changing-computer-volume-with-hand-movements-computervision
 
-##volumeHandControl:
+## volumeHandControl:
 
 This is a computer vision project that allows the user to adjust their computer audio using their hands (image capture through webcam).
 The model that captures the image from the webcam, detects the hands on the image, and draw the circles around the hand's landmarks
